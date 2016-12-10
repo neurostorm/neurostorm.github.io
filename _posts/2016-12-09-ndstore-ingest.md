@@ -5,7 +5,7 @@ description: "Learning how to ingest massive spatial volumes into the cloud at t
 modified: 2016-12-09
 category: tutorials
 tags: [ndstore, data]
-imagefeature: default_header.jpg
+imagefeature: kasthuri11.jpg
 comments: true
 share: true
 featured: true
