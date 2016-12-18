@@ -12,6 +12,8 @@ share: true
 featured: true
 ---
 
+in this post i highlight some of the most important books and articles for our group, and likely other groups.  this list is certainly imperfect, so please comment about books/articles that you think are missing.
+
 ### books as references:
 
 1. [exploratory data analysis (tukey)](https://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160)
@@ -24,22 +26,22 @@ featured: true
 1. [density estimation (silverman)](https://www.amazon.com/Density-Estimation-Statistics-Data-Analysis/dp/0412246201)
 
 
-### other people's statistical work:
+### statistcs / pattern recognition / data science:
 
-1. Model Based Clustering (Fraley & Rafterty, 2002): explains the relationship between  density estimation (via gaussian mixture modeling) and clustering.  still the best approach to cluster with medium-dimensional data
+1. Model Based Clustering (Fraley & Rafterty, 2002): explains the relationship between  density estimation (via gaussian mixture modeling) and clustering.  still the best approach to cluster with medium-dimensional data, imho.
 7. model selection is arbitrary (George & Foster; 2000): demonstrates that all the different model selection criteria are in fact arbitrary special cases of a general prior with 2 parameters
 3. Energy Statistics review (Rizzo & Szekely, 2016): explains energy statistics that can perform a variety of tasks in high-dimensional data
-4. Random Forest (Breiman, 2001): introduced random forest practice and theory
-5. GMRA (Allard, Chen, Maggioni; 2012): introduces and explains relationships between dictionary learning and machine learning, with theory and implementation
+4. Random Forest (Breiman, 2001): introduced random forest practice and theory, still the best "black box" machine learning algorithm.
+5. GMRA (Allard, Chen, Maggioni; 2012): introduces and explains relationships between dictionary learning and machine learning, with theory and implementation to boot
 6. [MLE for Misspecified Models (White, 1982)](https://www.jstor.org/stable/1912526?seq=1#page_scan_tab_contents): shows that MLE yields the minimum KL distance between the truth and the feasible region 
-7. [manifold learning is "just" kernel pca (Ham et al. 2004)](http://dl.acm.org/citation.cfm?id=1015417)
+7. [manifold learning is "just" kernel pca (Ham et al. 2004)](http://dl.acm.org/citation.cfm?id=1015417): links several different important manifold learning techniques
 10. [knn](http://projecteuclid.org/euclid.aos/1176343886): proves k-nearest neighbor is universally consistent regression
 8. [grazing goat starves in high-dimensions](http://www.jstor.org/stable/2686517?origin=JSTOR-pdf): shows that our intuition in high-dimensions is way off
-9. [LSH](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf): fast search via random projects
-1. [MSE doesn't work in >2 dimensions (Stein, 1960)](https://projecteuclid.org/euclid.bsmsp/1200501656): the reason that sparsity can help
-1. [lasso doesn't work, even in true model](https://arxiv.org/abs/1511.01957)
+9. [approximate nearest neighbor review](http://ieeexplore.ieee.org/document/4031381/): well-written discussion on the original [LSH paper](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf) and subsequent work
+1. [MSE doesn't work in >2 dimensions (Stein, 1960)](https://projecteuclid.org/euclid.bsmsp/1200501656): the geometric reason that sparsity and other forms of regularization can help in finite samples
+1. [lasso doesn't work, even in true model](https://arxiv.org/abs/1511.01957): shows that the lasso path includes lots of false positives, even when there are no correlations and the signal is sparse
 1. [generalized linear models](http://projecteuclid.org/download/pdf_1/euclid.ss/1177013604): showed that one can estimate many reasonable nonlinear regression function with a sum of very simple nonlinear functions
-1. [statistical pattern recognition (Jain, 2000)](http://ieeexplore.ieee.org/document/824819/)
+1. [statistical pattern recognition (Jain, 2000)](http://ieeexplore.ieee.org/document/824819/): a wonderful review, shows the Trunk example that the optimal parameter/model with finite data is not necessarily the truth.
 
 
 ### other people's data collection:
@@ -55,12 +57,11 @@ featured: true
 ### our work:
 
 1. [incommensurability phenomenon](http://link.springer.com/article/10.1007/s00357-016-9203-9): shows that if you run PCA twice on two different samples of noisy data, you get arbitrarily different results
-1. [You say, I say](http://www.cis.jhu.edu/~parky/CEP-Publications/scgn-21-2.pdf): shows that graph invariants are test statistics, and therefore, we can determine which invariants are optimal for any test
-1. [Graph Matching: Relax at your own risk](http://ieeexplore.ieee.org/document/7091002/): shows that we can use a convex analytic approx. to initialize a non-convex numerical approx, and get good results on an NP-hard problem
-1. [Consitency of ASE](http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2012.699795): shows that ASE yields consistent estimators of latent positions, so then we can use them for subsequent inference
-1. [HSBM](http://ieeexplore.ieee.org/document/7769223/): is the best model of large graphs we know
-2. [LOL](https://github.com/neurodata/LOL): shows that simple, computationally efficient tricks based on understanding the geometry of the problem can yield provably better results
-1. [MGC](https://www.overleaf.com/read/ygghvtgftzpp): shows that we can use and estimate locality for certain exploitation tasks
+1. [You say, I say](http://www.cis.jhu.edu/~parky/CEP-Publications/scgn-21-2.pdf): shows that graph invariants are test statistics, and therefore, we can determine which invariants are optimal for any test by thinking about them in these terms
+1. [Graph Matching: Relax at your own risk](http://ieeexplore.ieee.org/document/7091002/): shows that we can use a convex analytic approx. to initialize a non-convex numerical approx, and get good results on an NP-hard problem, even when the convex approx. is provably bad
+1. [Consitency of ASE](http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2012.699795): shows that ASE yields consistent estimators of latent positions for random graph models, so then we can use them in typical machine learning algorithms for subsequent inference
+1. [HSBM](http://ieeexplore.ieee.org/document/7769223/): one of the best statistical models of large graphs we know
+1. [MGC](https://arxiv.org/abs/1609.05148): shows that we can use and estimate locality for certain exploitation tasks, improving upon previous dependence tests both theoretically and empirically
 1. [FlashGraph](https://arxiv.org/abs/1408.0500): demonstrates the power of semi-external memory modeling
 1. [open connectome paper](https://arxiv.org/abs/1306.3543): explains basis of our spatial database
 1. [mi-lddmm](https://arxiv.org/abs/1612.00356): the current best approach for nonlinear registration, imho
