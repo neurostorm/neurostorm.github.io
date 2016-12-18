@@ -13,7 +13,7 @@ featured: true
 
 here is a list of papers that probably everybody on the team should read:
 
-### other people's work:
+### other people's statistical work:
 
 1. Model Based Clustering (Fraley & Rafterty, 2002): explains the relationship between  density estimation (via gaussian mixture modeling) and clustering.  still the best approach to cluster with medium-dimensional data
 7. model selection is arbitrary (George & Foster; 2000): demonstrates that all the different model selection criteria are in fact arbitrary special cases of a general prior with 2 parameters
@@ -22,6 +22,16 @@ here is a list of papers that probably everybody on the team should read:
 5. GMRA (Allard, Chen, Maggioni; 2012): introduces and explains relationships between dictionary learning and machine learning, with theory and implementation
 6. MLE for Misspecified Models ([White; 1982](https://www.jstor.org/stable/1912526?seq=1#page_scan_tab_contents)): shows that MLE yields the minimum KL distance between the truth and the feasible region 
 7. manifold learning is just kernel pca ([Ham et al., 2004](http://dl.acm.org/citation.cfm?id=1015417))
+
+### other people's data collection:
+
+1. [array tomograph](http://cshprotocols.cshlp.org/content/2010/11/pdb.top89.full.pdf+html)
+1. [CLARITY](http://www.nature.com/nmeth/journal/v10/n6/full/nmeth.2481.html) and [iDisco](http://www.cell.com/abstract/S0092-8674(14)01297-5)
+1. [serial EM](http://www.nature.com/nature/journal/v471/n7337/abs/nature09802.html)
+1. [multimodal MRI](http://www.nature.com/nmeth/journal/v10/n6/abs/nmeth.2482.html)
+1. [calcium imaging](http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3040.html)
+1. [behavior](http://science.sciencemag.org/content/344/6182/386.long)
+1. [biomarkers in psychiatry](https://www.researchgate.net/profile/Karen_Seymour2/publication/261507750_Consensus_Report_of_the_APA_Work_Group_on_Neuroimaging_Markers_of_Psychiatric_Disorders/links/0c9605346a4d865d9b000000.pdf)
 
 ### our work:
 
