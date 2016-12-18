@@ -22,9 +22,11 @@ here is a list of papers that probably everybody on the team should read:
 5. GMRA (Allard, Chen, Maggioni; 2012): introduces and explains relationships between dictionary learning and machine learning, with theory and implementation
 6. [MLE for Misspecified Models (White, 1982)](https://www.jstor.org/stable/1912526?seq=1#page_scan_tab_contents): shows that MLE yields the minimum KL distance between the truth and the feasible region 
 7. [manifold learning is "just" kernel pca (Ham et al. 2004)](http://dl.acm.org/citation.cfm?id=1015417)
-10. [knn](http://projecteuclid.org/euclid.aos/1176343886)
+10. [knn](http://projecteuclid.org/euclid.aos/1176343886): proves k-nearest neighbor is universally consistent regression
 8. [grazing goat starves in high-dimensions](http://www.jstor.org/stable/2686517?origin=JSTOR-pdf): shows that our intuition in high-dimensions is way off
-9. [LSH](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf)
+9. [LSH](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf): fast search via random projects
+1. [MSE doesn't work in >2 dimensions (Stein, 1960)](https://projecteuclid.org/euclid.bsmsp/1200501656): the reason that sparsity can help
+
 
 ### other people's data collection:
 
