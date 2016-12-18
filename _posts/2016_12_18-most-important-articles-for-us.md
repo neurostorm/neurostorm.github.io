@@ -26,7 +26,7 @@ here is a list of papers that probably everybody on the team should read:
 8. [grazing goat starves in high-dimensions](http://www.jstor.org/stable/2686517?origin=JSTOR-pdf): shows that our intuition in high-dimensions is way off
 9. [LSH](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf): fast search via random projects
 1. [MSE doesn't work in >2 dimensions (Stein, 1960)](https://projecteuclid.org/euclid.bsmsp/1200501656): the reason that sparsity can help
-
+1. [lasso doesn't work, even in true model](https://arxiv.org/abs/1511.01957)
 
 ### other people's data collection:
 
