@@ -13,14 +13,14 @@ featured: true
 
 ### books as references:
 
-1. [EDa](https://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160)
-1. [TSH](https://www.amazon.com/Testing-Statistical-Hypotheses-Springer-Statistics-ebook/dp/B00DZ0O04O/ref=sr_1_1?s=books&ie=UTF8&qid=1482089959&sr=1-1&keywords=9780387276052)
-1. [TPE](https://www.amazon.com/Theory-Point-Estimation-Springer-Statistics/dp/0387985026/ref=asap_bc?ie=UTF8)
-1. [convex optimization](https://www.amazon.com/Convex-Optimization-Stephen-Boyd/dp/0521833787/ref=sr_1_1?s=books&ie=UTF8&qid=1482090079&sr=1-1&keywords=convex+optimization)
-1. [elements of information theory](https://www.amazon.com/Elements-Information-Theory-Telecommunications-Processing/dp/0471241954/ref=sr_1_1?s=books&ie=UTF8&qid=1482090107&sr=1-1&keywords=cover+and+thomas+information)
-1. [elements of statistical learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
-1. [robust statistics](http://sanghv.com/download/soft/machine%20learning,%20artificial%20intelligence,%20mathematics%20ebooks/math/statistics/robust%20statistics%20(2nd,%202009).pdf)
-1. [density estimation](https://www.amazon.com/Density-Estimation-Statistics-Data-Analysis/dp/0412246201)
+1. [exploratory data analysis (tukey)](https://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160)
+1. [testing statistical hypotheses](https://www.amazon.com/Testing-Statistical-Hypotheses-Springer-Statistics-ebook/dp/B00DZ0O04O/ref=sr_1_1?s=books&ie=UTF8&qid=1482089959&sr=1-1&keywords=9780387276052)
+1. [theory of point estimation](https://www.amazon.com/Theory-Point-Estimation-Springer-Statistics/dp/0387985026/ref=asap_bc?ie=UTF8)
+1. [convex optimization (boyd & other dude)](https://www.amazon.com/Convex-Optimization-Stephen-Boyd/dp/0521833787/ref=sr_1_1?s=books&ie=UTF8&qid=1482090079&sr=1-1&keywords=convex+optimization)
+1. [elements of information theory (cover & thomas)](https://www.amazon.com/Elements-Information-Theory-Telecommunications-Processing/dp/0471241954/ref=sr_1_1?s=books&ie=UTF8&qid=1482090107&sr=1-1&keywords=cover+and+thomas+information)
+1. [elements of statistical learning (tibs & co)](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
+1. [robust statistics (huber)](http://sanghv.com/download/soft/machine%20learning,%20artificial%20intelligence,%20mathematics%20ebooks/math/statistics/robust%20statistics%20(2nd,%202009).pdf)
+1. [density estimation (silverman)](https://www.amazon.com/Density-Estimation-Statistics-Data-Analysis/dp/0412246201)
 
 
 ### other people's statistical work:
