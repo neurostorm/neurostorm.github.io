@@ -11,7 +11,17 @@ share: true
 featured: true
 ---
 
-here is a list of papers that probably everybody on the team should read:
+### books as references:
+
+1. [EDa](https://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160)
+1. [TSH](https://www.amazon.com/Testing-Statistical-Hypotheses-Springer-Statistics-ebook/dp/B00DZ0O04O/ref=sr_1_1?s=books&ie=UTF8&qid=1482089959&sr=1-1&keywords=9780387276052)
+1. [TPE](https://www.amazon.com/Theory-Point-Estimation-Springer-Statistics/dp/0387985026/ref=asap_bc?ie=UTF8)
+1. [convex optimization](https://www.amazon.com/Convex-Optimization-Stephen-Boyd/dp/0521833787/ref=sr_1_1?s=books&ie=UTF8&qid=1482090079&sr=1-1&keywords=convex+optimization)
+1. [elements of information theory](https://www.amazon.com/Elements-Information-Theory-Telecommunications-Processing/dp/0471241954/ref=sr_1_1?s=books&ie=UTF8&qid=1482090107&sr=1-1&keywords=cover+and+thomas+information)
+1. [elements of statistical learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
+1. [robust statistics](http://sanghv.com/download/soft/machine%20learning,%20artificial%20intelligence,%20mathematics%20ebooks/math/statistics/robust%20statistics%20(2nd,%202009).pdf)
+1. [density estimation](https://www.amazon.com/Density-Estimation-Statistics-Data-Analysis/dp/0412246201)
+
 
 ### other people's statistical work:
 
@@ -27,6 +37,9 @@ here is a list of papers that probably everybody on the team should read:
 9. [LSH](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf): fast search via random projects
 1. [MSE doesn't work in >2 dimensions (Stein, 1960)](https://projecteuclid.org/euclid.bsmsp/1200501656): the reason that sparsity can help
 1. [lasso doesn't work, even in true model](https://arxiv.org/abs/1511.01957)
+1. [generalized linear models](http://projecteuclid.org/download/pdf_1/euclid.ss/1177013604): showed that one can estimate many reasonable nonlinear regression function with a sum of very simple nonlinear functions
+1. [statistical pattern recognition (Jain, 2000)](http://ieeexplore.ieee.org/document/824819/)
+
 
 ### other people's data collection:
 
