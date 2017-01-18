@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most important articles for us
+title: What is statistics for
 description: ""
 modified: 2016-12-18
 category: misc
