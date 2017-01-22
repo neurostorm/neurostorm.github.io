@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most important articles for us
+title: Useful Background Reading for NeuroData
 description: ""
 modified: 2016-12-18
 category: misc
@@ -48,6 +48,10 @@ however, each does an excellent job making a specific point that i believe is im
 1. [generalized linear models](http://projecteuclid.org/download/pdf_1/euclid.ss/1177013604): showed that one can estimate many reasonable nonlinear regression functions with a sum of very simple nonlinear functions, though not used so much in practice these days, still a very important concept
 1. [statistical pattern recognition (Jain, 2000)](http://ieeexplore.ieee.org/document/824819/): a wonderful review, shows the Trunk example that the optimal parameter/model with finite data is not necessarily the truth.
 1. [imagenet classification via deep learning](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf): shows that with lots of training data, flops, on images, deep learning dramatically outperformed previous methods
+1. [Statistical modeling: The two cultures (with comments and a rejoinder by the author)](http://www.stat.uchicago.edu/~lekheng/courses/191f09/breiman.pdf) explains the difference between machine learning and statistical modeling, but before the term "machine learning" was cool.
+1. [Classifier Technology and the Illusion of Progress](https://arxiv.org/pdf/math/0606441.pdf). In particular, it cites Hoadley, "Hoadley, in the same discussion, “coined a phrase called the ‘ping-pong theorem.’ This theorem says that if we revealed to Professor Breiman the performance of our best model and gave him our data, then he could develop an algorithmic model using random forests, which would outperform our model. But if he revealed to us the performance of his model, then we could de- velop a segmented scorecard, which would outperform his model.”
+
+
 
 ### other people's data collection:
 
