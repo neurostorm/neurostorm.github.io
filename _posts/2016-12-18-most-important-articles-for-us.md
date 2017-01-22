@@ -55,7 +55,7 @@ however, each does an excellent job making a specific point that i believe is im
 
 ### other people's neurodata collection:
 
-1. [array tomograph](http://cshprotocols.cshlp.org/content/2010/11/pdb.top89.full.pdf+html) for collecting multispectral 3D gene expression maps
+1. [array tomograph](http://cshprotocols.cshlp.org/content/2010/11/pdb.top89.full.pdf+html) for collecting multispectral 3D gene expression maps, and [Knowing a synapse when you see one](http://journal.frontiersin.org/article/10.3389/fnana.2015.00100/full) for more discussion.
 1. [CLARITY](http://www.nature.com/nmeth/journal/v10/n6/full/nmeth.2481.html) and [iDisco](http://www.cell.com/abstract/S0092-8674(14)01297-5):for seeing whole brains with fluorescence without physically sectioning
 1. [serial EM](http://www.nature.com/nature/journal/v471/n7337/abs/nature09802.html) for seeing large volumes of nanoscale neuroanatomy
 1. [multimodal MRI](http://www.nature.com/nmeth/journal/v10/n6/abs/nmeth.2482.html) for seeing in vivo non-invasive brain structure and function at millimeter scale
